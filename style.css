@@ -4,7 +4,7 @@
 }
 
 .fundo{
-    background-image: linear-gradient(45deg,black, rgb(20, 107, 220));
+    background-image: linear-gradient(90deg, #1746A2, #5F9DF7);
     height: 100vh;
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
@@ -27,17 +27,21 @@ button{
     font-size: 25px;
     margin: 2px;
     cursor: pointer;
-    background-color: #201d1d;
+    background-color: #212e41;
     border: none;
     color: #ffffff;
 }
 
 button:hover{
-    background: black;
+    background: rgb(116, 111, 111);
 }
 
 #button-zero{
     width: 106px;
+}
+
+#button-igual{
+    height: 106px;
 }
 
 #resultado{
